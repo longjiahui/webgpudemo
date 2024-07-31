@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "start": "concurrently \"tsc-watch\" \"live-server .\""
+    },
+    "devDependencies": {
+        "@webgpu/types": "^0.1.44",
+        "concurrently": "^8.2.2",
+        "tsc-watch": "^6.2.0"
+    }
+}
